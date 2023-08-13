@@ -176,7 +176,13 @@ import numpy as np
 # plt.bar(x, y, color="red")
 # plt.show()
 
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-plt.barh(x, y, color="hotpink")  # Horizontal bars
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
+# plt.barh(x, y, color="hotpink")  # Horizontal bars
+# plt.show()
+
+# Histogram
+x = np.random.normal(170, 10, 250)
+
+plt.hist(x)
 plt.show()
