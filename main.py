@@ -182,7 +182,22 @@ import numpy as np
 # plt.show()
 
 # Histogram
-x = np.random.normal(170, 10, 250)
+# x = np.random.normal(170, 10, 250)
+#
+# plt.hist(x)
+# plt.show()
 
-plt.hist(x)
+# Pie chart
+# y = np.array([35, 25, 25, 15])
+# myLabels = ["Apples", "Bananas", "Cherries", "Dates"]
+#
+# plt.pie(y, labels=myLabels)
+# plt.legend(title="Four Fruits:")
+# plt.show()
+
+y = np.array([35, 25, 25, 15])
+myLabels = ["Apples", "Bananas", "Cherries", "Dates"]
+myExplode = [0.2, 0, 0, 0]
+
+plt.pie(y, labels=myLabels, explode=myExplode, shadow=True)  # Explode with shadow
 plt.show()
