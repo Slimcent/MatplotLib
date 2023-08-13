@@ -51,7 +51,21 @@ import numpy as np
 # plt.plot(yPoints, marker='o')
 # plt.show()
 
-yPoints = np.array([3, 8, 1, 10])
+# yPoints = np.array([3, 8, 1, 10])
+#
+# plt.plot(yPoints, 'o:r')
+# plt.show()
 
-plt.plot(yPoints, 'o:r')
+# LineStyle
+# yPoints = np.array([3, 8, 1, 10])
+#
+# plt.plot(yPoints, linestyle='dotted')
+# plt.show()
+
+# Multiple lines
+y1 = np.array([3, 8, 1, 10])
+y2 = np.array([6, 2, 7, 11])
+
+plt.plot(y1)
+plt.plot(y2)
 plt.show()
